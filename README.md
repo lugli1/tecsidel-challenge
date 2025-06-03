@@ -14,10 +14,13 @@ O usuário é criado pela empresa e entregado à concessionária que estará enc
 ![image](https://github.com/user-attachments/assets/de376e9d-3b76-4efc-bd95-0d51b29dcfb5)
 #### Consulta
 Segundo alguns filtros o usuário pode consultar os últimos registros de determinado tipo de dado:<br>
-![image](https://github.com/user-attachments/assets/2c35ee74-3e85-4323-9140-3970b851b345)
-![image](https://github.com/user-attachments/assets/9ec0675b-d612-4594-b44a-af2eb63f29ce)
-![image](https://github.com/user-attachments/assets/d0f6c757-488a-4494-b207-74cef4de0611)
-![image](https://github.com/user-attachments/assets/76a699e1-847b-4588-8fdd-f142ee0c6537)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2c35ee74-3e85-4323-9140-3970b851b345" width="170" style="vertical-align: top; margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/9ec0675b-d612-4594-b44a-af2eb63f29ce" width="170" style="vertical-align: top; margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/d0f6c757-488a-4494-b207-74cef4de0611" width="170" style="vertical-align: top; margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/76a699e1-847b-4588-8fdd-f142ee0c6537" width="170" style="vertical-align: top;"/>
+</p>
+
 A ideia é disponibilizar um download de um arquivo csv dos registros. Outros filtros como: período, tipo do veículo, tamanho, rodas suspensas, cobrado por tag ou por placa, etc, também podem ser interessantes para a análise de dados.<br>
 #### Pórticos – Free Flow
 Os pórticos ligados ao usuário (rodovia) estão disponíveis para serem acessados aqui. O ícone à esquerda indica o status de todos os equipamentos do pórtico. Se não houver problema em nenhum, o ícone fica verde.
