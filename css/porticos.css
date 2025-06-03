@@ -1,0 +1,382 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: rgb(234, 236, 236);
+}
+
+/*header*/
+.header-box {
+    width: 100vw;
+    height:11vmin;
+    background-color: rgb(0, 67, 87);
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
+.header-f1{
+    width:5%;
+    height:100%;
+}
+.header-img-box{
+    height: 100%;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-img {
+    width:80%;
+    height:40%;
+    cursor:pointer;
+}
+.header-f2{
+    width:60%;
+    height:100%;
+}
+.header-f3{
+    width:15%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color:white;
+    margin:0;
+    padding: 0; 
+    cursor:pointer;
+}
+
+/*main*/
+main{
+    width: 100%;
+    height:87vmin;
+    background-color: rgb(234, 236, 236);
+}
+.main-st-faixa {
+    width: 100%;
+    height:350px;
+    display:flex;
+    border-bottom:1px solid #000;
+}
+.main-st-leftside-header{
+    width: 100%;
+    height:15%;
+    display:flex;
+    background-color: rgb(247, 247, 247);
+}
+.main-st-leftside-body{
+    width:100%;
+    height:85%;
+    display:flex;
+}
+.main-st-leftside-camera{
+    height:100%;
+    width:50%;
+}
+.camera{
+    width:100%;
+    height:100%;
+}
+.main-topside{
+    width:100%;
+    height:20%;
+}
+.main-topside-header{
+    width:100%;
+    height:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-topside-content{
+    width:100%;
+    height:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+}
+.main-topside-header-underline{
+    width:90%;
+    height:100%;
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-topside-content-center{
+    width:90%;
+    height:100%;
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-downside{
+    width: 100%;
+    height:80%;
+}
+.main-downside-up{
+    width:100%;
+    height:50%;
+}
+.main-downside-up-header{
+    width: 100%;
+    height:15%;
+    display: flex;
+    justify-content: center;
+}
+.main-downside-up-header-underline{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #000;
+}
+.main-downside-faixa{
+    width: 33.33333%;
+    height:100%;
+    border-right:1px solid #000;
+}
+.main-downside-up-content{
+    width: 100%;
+    height:85%;
+    display:flex;
+}
+.main-downside-down {
+    width:100%;
+    height:50%;
+    border-bottom:2px solid #000;
+}
+.main-faixa-space{
+    width:10%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-faixa-text{
+    width:80%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-topside-content-box{
+    width:25%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Footer */
+footer{
+    width:100%;
+    height:2vmin;
+}
+/* modal */
+.modal-equip{
+    position:fixed;
+    display:none;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 25%;
+    border-radius:10px;
+    height: 30%;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0px rgba(97, 97, 97, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+.modal-equip-box{
+    width:93%;
+    height:90%;
+}
+.modal-equip-box-header{
+    height:15%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-equip-box-content{
+    height:80%;
+    width: 100%;
+}
+.modal-equip-box-content-item{
+    width:100%;
+    height:25%;
+    display:flex;
+    align-items: center;
+    padding:0 0 0 10px;
+}
+.modal-equip-box-content-item-space{
+    width: 10%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-equip-box-footer{
+    height:5%;
+    width: 100%;
+}
+
+/* items */
+.inter-modal-header{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color:rgb(43, 43, 43);
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+}
+.inter-modal-item{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color:rgb(0, 0, 0);
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+}
+.button-equip{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.button-equip:hover{
+    height:32px;
+    width:32px;
+}
+.equip-img{
+    width:70%;
+    height:70%;
+}
+h3{
+    margin:0;
+    padding:0;
+}
+.circle-g{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 13);
+}
+.circle-r{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+button{
+    border-style: none;
+    padding:0;  
+
+}
+.button:active{
+    border: none;
+    outline: none;
+    text-decoration: underline;
+}
+.inter-leftside {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color:rgb(43, 43, 43);
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+}
+.inter-rightside-header {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color:rgb(43, 43, 43);
+    margin:0;
+    padding: 0;
+    font-size: 25px;
+}
+.inter-rightside-content{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color:rgb(43, 43, 43);
+    margin:0;
+    padding: 0;
+    font-size: 39px;
+}
+.inter-info{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color:rgb(43, 43, 43);
+    margin:0;
+    padding: 0;
+    font-size: 25px;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
